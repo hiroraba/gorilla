@@ -3,6 +3,8 @@ use Test::More;
 use gorilla;
 
 # replace with the actual test
-ok 1;
+subtest "basic test" => sub {
+use_ok("gorilla");
+};
 
 done_testing;

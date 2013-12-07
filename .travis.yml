@@ -1,0 +1,2 @@
+language: "perl"
+install: cpanm --with-develop --installdeps --notest .

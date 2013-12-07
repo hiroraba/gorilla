@@ -6,7 +6,6 @@ our $VERSION = '0.01';
 
 use File::Next;
 use Filesys::Notify::Simple;
-use Data::Dumper;
 
 sub new {
   my ($class, $path) = @_;
